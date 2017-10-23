@@ -1,0 +1,113 @@
+                                                    ==============================
+                                                              Oktobar 18
+                                                    ===============================
+                                                    OBJECT - ORIENTED - PROGRAMMING
+                                                    ===============================
+
+
+    -   object, method, property
+    -   class
+    -   Encapsulation
+    -   Aggregation
+    -   Reusability / Inheritance
+    -   Polymorphism
+
+
+OBJECTS 
+--------
+
+-   representation of a "thing"
+-   could be real-life object, or a convoluted concept
+
+moze imati KARAKTERISTIKE i AKCIJE:
+
+-   Karakteristike su PROPERTIES (name, age, tail color)
+-   Akcije su METHODS (meow, jump, hide, purr)
+
+"The black cat sleeps on the mat"
+
+CAT - object
+BLACK - property
+SLEEPS - method
+
+
+CLASSES
+--------
+
+Drugo ime za klase je INSTANCE. 
+You can create different OBJECTS using the same CLASS!
+
+
+!!!! WARNING !!!! WARNING !!!! WARNING !!!! WARNING !!!! WARNING !!!!
+
+JAVASCRIPT HAVE NO CLASSES - EVERYTHING IS BASED ON OBJECTS
+
+!!!! WARNING !!!! WARNING !!!! WARNING !!!! WARNING !!!! WARNING !!!!
+
+
+Encapsulation:
+
+Objekat nosi sa sobom podatke i nacin kako da manipulise tim podacima.
+Mi imamo i vidimo samo interfejs (VIEW) niti nas zanima kako program radi.
+Od nas je interni program SKRIVEN.
+U razlicitim jezicima se drugacije kod pristupa (public, private, protected)
+U JavaScript sve metode i properties su public, ali drugim konceptima se enkapsulira
+
+
+AGGREGATION 
+-----------
+
+Book object can contain (aggregate) one or more Author objects, Publisher object, Chapter objects etc.
+
+INHERITANCE 
+-----------
+
+We have object called Person
+We want object called Programmer and we want to use Person to create it.
+
+    Person --> Programmer
+    - name         - writeCode()
+    - dateOfBirth
+    - run()
+    - sleep()
+
+Objects inherit from other objects ! (Since there are no classes in JS);
+
+- B inherits from A    
+- B extends A
+
+Polymorphism
+------------
+
+Somewhere theres a variable John. Not sure if its Person object or Programmer object.
+We can call same pethods on different objects, and see the results.
+
+var hero = {
+    name: 'Leonardo',
+    kind: 'Turtle',
+    occupation: 'Ninja'
+};
+
+------------------------------------------------------
+When talking about [Arrays] they contain ELEMENTS
+When talking about {Objects} they contain PROPERTIES
+------------------------------------------------------
+
+Pristup properties in objects:
+
+hero['occupation']
+
+ILI
+
+hero.occupation
+
+
+
+
+                                                    ==============================
+                                                              Oktobar 20
+                                                    ===============================
+                                                    -   -   -   -   -   -   -  - 
+                                                    ===============================
+
+
