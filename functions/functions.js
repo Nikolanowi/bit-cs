@@ -6,7 +6,7 @@ function isEven(myNum) {
     };
 };
 
-//console.log(isEven(13));
+console.log(isEven(13));
 
 
 function isItDivisible(num) {
