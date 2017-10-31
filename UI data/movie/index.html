@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie list</title>
+    
+</head>
+
+<body>
+    <h1>Movie list</h1>
+    <form>
+        <input type="text" id="movie-title" value="" placeholder="Title">
+        <input type="number" id="movie-length" value="" placeholder="Length">
+        <select name="genre-select" id="genre-select">
+            <option value="none">-</option>
+            <option value="action">action</option>
+            <option value="drama">drama</option>
+            <option value="commedy">commedy</option>
+        </select>
+        <div id="error"></div>
+        <input id=  "createmovie" type="button"  value="Create movie">
+        <hr>
+        <div id="movie-list"></div>
+    </form>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
